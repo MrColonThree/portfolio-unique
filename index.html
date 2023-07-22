@@ -21,8 +21,8 @@
         theme: {
           extend: {
             colors: {
-              gray: '#737E86',
-              darkblue: '#09283E',
+              gray: "#737E86",
+              darkblue: "#09283E",
             },
           },
         },
@@ -32,11 +32,14 @@
       * {
         font-family: "League Spartan", sans-serif;
       }
-      .banner{
-        background-image: url('/images/bg.png');
+      .banner {
+        background-image: url("/images/bg.png");
       }
-      .background{
-        background-color: #09283E;
+      .card-bg {
+        background-image: url('/images/card.png');
+      }
+      .background {
+        background-color: #09283e;
       }
     </style>
   </head>
@@ -88,16 +91,24 @@
             </ul>
           </div>
         </div>
-        
       </nav>
       <!-- Banner -->
       <div>
-        <div class="hero min-h-[85vh] banner">
-          <div class="hero-content gap-32 flex-col lg:flex-row">
+        <div class="hero banner bg-cover bg-no-repeat pr-80 pt-60 pb-32">
+          <div
+            class="hero-content gap-32 items-center justify-start flex-col lg:flex-row"
+          >
             <img src="images/dp.png" class="max-w-sm rounded-lg" />
             <div class="text-white">
               <h1 class="text-4xl font-semibold">About me</h1>
-              <p class="text-2xl leading-9 py-6">Lorem ipsum dolor sit amet consectetur. Suspendisse sed pellentesque interdum quis nec viverra nibh a augue. Hac cras lectus pretium mattis sit nam eget. Erat sem faucibus vulputate elementum. Gravida leo placerat nunc at. Hac cras lectus pretium mattis sit nam eget. Erat sem faucibus vulputate elementum. Gravida leo placerat nunc at.</p>
+              <p class="text-2xl leading-9 py-6">
+                Lorem ipsum dolor sit amet consectetur. Suspendisse sed
+                pellentesque interdum quis nec viverra nibh a augue. Hac cras
+                lectus pretium mattis sit nam eget. Erat sem faucibus vulputate
+                elementum. Gravida leo placerat nunc at. Hac cras lectus pretium
+                mattis sit nam eget. Erat sem faucibus vulputate elementum.
+                Gravida leo placerat nunc at.
+              </p>
             </div>
           </div>
         </div>
@@ -108,67 +119,164 @@
       <section class="background lg:px-40 lg:py-10 space-y-12">
         <div class="flex flex-wrap gap-5">
           <h1 class="text-white text-4xl font-semibold">My Certificates</h1>
-          <img src="images/ph_medal.svg" alt="">
-          <img src="images/Udemy svg.svg " alt="">
-          <img src="images/coder.png" alt="">
+          <img src="images/ph_medal.svg" alt="" />
+          <img src="images/Udemy svg.svg " alt="" />
+          <img src="images/coder.png" alt="" />
         </div>
         <div class="grid gap-6 gris-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <!-- first -->
-          <div class=" bg-sky-200 rounded-[20px]">
-            <div class="absolute bg-green-600 w-8 h-8 rounded-br-[20px] rounded-tl-[20px]"></div>
+          <div class="bg-sky-200 rounded-[20px]">
+            <div
+              class="absolute bg-green-600 w-7 h-7 rounded-br-[20px] rounded-tl-[20px]"
+            ></div>
             <div class="px-7 py-5">
-            <h3 class="text-xl text-darkblue">Titulo do Certificado</h3>
-            <p class="text-gray my-3 mr-6">Lorem ipsum dolor sit amet consectetur. Vulputate leo pellentesque vel blandit non consequat. Vestibulum ut scelerisque blandit facilisis ultrices.Vestibulum ut scelerisque blandit facilisis ultrices.</p>
-            <div class="flex justify-between text-darkblue text-xs">
-            <p>
-              Tempo de estudo: 20 horas
-            </p>
-             <div class="inline-flex gap-2 items-center">
-              <p>Ver certificado</p>
-              <img src="images/arrow-right.svg" alt="">
+              <h3 class="text-xl text-darkblue">Titulo do Certificado</h3>
+              <p class="text-gray my-3 mr-6">
+                Lorem ipsum dolor sit amet consectetur. Vulputate leo
+                pellentesque vel blandit non consequat. Vestibulum ut
+                scelerisque blandit facilisis ultrices.Vestibulum ut scelerisque
+                blandit facilisis ultrices.
+              </p>
+              <div class="flex justify-between text-darkblue text-xs">
+                <p>Tempo de estudo: 20 horas</p>
+                <div class="inline-flex gap-2 items-center">
+                  <p>Ver certificado</p>
+                  <img src="images/arrow-right.svg" alt="" />
+                </div>
+              </div>
             </div>
+          </div>
+          <!-- Second -->
+          <div class="bg-sky-200 rounded-[20px]">
+            <div
+              class="absolute bg-green-600 w-7 h-7 rounded-br-[20px] rounded-tl-[20px]"
+            ></div>
+            <div class="px-7 py-5">
+              <h3 class="text-xl text-darkblue">Titulo do Certificado</h3>
+              <p class="text-gray my-3 mr-6">
+                Lorem ipsum dolor sit amet consectetur. Vulputate leo
+                pellentesque vel blandit non consequat. Vestibulum ut
+                scelerisque blandit facilisis ultrices.Vestibulum ut scelerisque
+                blandit facilisis ultrices.
+              </p>
+              <div class="flex justify-between text-darkblue text-xs">
+                <p>Tempo de estudo: 20 horas</p>
+                <div class="inline-flex gap-2 items-center">
+                  <p>Ver certificado</p>
+                  <img src="images/arrow-right.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- third -->
+          <div class="bg-sky-200 rounded-[20px]">
+            <div
+              class="absolute bg-green-600 w-7 h-7 rounded-br-[20px] rounded-tl-[20px]"
+            ></div>
+            <div class="px-7 py-5">
+              <h3 class="text-xl text-darkblue">Titulo do Certificado</h3>
+              <p class="text-gray my-3 mr-6">
+                Lorem ipsum dolor sit amet consectetur. Vulputate leo
+                pellentesque vel blandit non consequat. Vestibulum ut
+                scelerisque blandit facilisis ultrices.Vestibulum ut scelerisque
+                blandit facilisis ultrices.
+              </p>
+              <div class="flex justify-between text-darkblue text-xs">
+                <p>Tempo de estudo: 20 horas</p>
+                <div class="inline-flex gap-2 items-center">
+                  <p>Ver certificado</p>
+                  <img src="images/arrow-right.svg" alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Second -->
-          <div class=" bg-sky-200 rounded-[20px] ">
-            <div class="absolute bg-green-600 w-8 h-8 rounded-br-[20px] rounded-tl-[20px]"></div>
-            <div class="px-7 py-5">
-            <h3 class="text-xl text-darkblue">Titulo do Certificado</h3>
-            <p class="text-gray my-3 mr-6">Lorem ipsum dolor sit amet consectetur. Vulputate leo pellentesque vel blandit non consequat. Vestibulum ut scelerisque blandit facilisis ultrices.Vestibulum ut scelerisque blandit facilisis ultrices.</p>
-            <div class="flex justify-between text-darkblue text-xs">
-            <p>
-              Tempo de estudo: 20 horas
-            </p>
-             <div class="inline-flex gap-2 items-center">
-              <p>Ver certificado</p>
-              <img src="images/arrow-right.svg" alt="">
+      </section>
+      <!-- Projects -->
+      <section class="background lg:px-40 lg:py-40 space-y-12">
+
+        <div class="flex flex-wrap gap-5">
+          <h1 class="text-white text-4xl font-semibold">
+            Projetos de Portfólio
+          </h1>
+          <img src="images/code.svg" alt="" />
+        </div>
+        <div class="grid gap-6 gris-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Project 1 -->
+        <div class="flex items-center gap-1">
+          <div class="flex bg-slate-200 rounded-[35px]">
+            <img src="images/card.png" alt="" />
+            <div class="px-7 py-4">
+              <h3 class="text-xl text-darkblue">Título do projeto</h3>
+              <p class="text-gray my-3 mr-6 w-48">
+                Lorem ipsum dolor sit amet consectetur. Vitae maecenas nulla
+                nulla netus sagittis. Pellentesque non nec varius nisi velit
+                nulla suspendisse luctus.
+              </p>
+              <div class="flex flex-start gap-3">
+                <img src="images/html.png" alt="" />
+                <img src="images/css.png" alt="" />
+                <img src="images/react.png" alt="" />
+                <img src="images/js.png" alt="" />
+              </div>
             </div>
+          </div>
+          <div class="bg-slate-200 p-3 rounded-r-xl space-y-3">
+            <img src="images/mdi_web.svg" alt="">
+            <img src="images/mdi_github.svg" alt="">
+          </div>
+        </div>
+          <!-- Project 2 -->
+          <div class="flex items-center gap-1">
+            <div class="flex bg-slate-200 rounded-[35px]">
+              <img src="images/card.png" alt="" />
+              <div class="px-7 py-4">
+                <h3 class="text-xl text-darkblue">Título do projeto</h3>
+                <p class="text-gray my-3 mr-6 w-48">
+                  Lorem ipsum dolor sit amet consectetur. Vitae maecenas nulla
+                  nulla netus sagittis. Pellentesque non nec varius nisi velit
+                  nulla suspendisse luctus.
+                </p>
+                <div class="flex flex-start gap-3">
+                  <img src="images/html.png" alt="" />
+                  <img src="images/css.png" alt="" />
+                  <img src="images/react.png" alt="" />
+                  <img src="images/js.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="bg-slate-200 p-3 rounded-r-xl space-y-3">
+              <img src="images/mdi_web.svg" alt="">
+              <img src="images/mdi_github.svg" alt="">
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="flex items-center gap-1">
+            <div class="flex bg-slate-200 rounded-[35px]">
+              <img class="" src="images/card.png" alt="" />
+              <div class="px-7 py-4 ">
+                <h3 class="text-xl text-darkblue">Título do projeto</h3>
+                <p class="text-gray my-3 mr-6 w-48">
+                  Lorem ipsum dolor sit amet consectetur. Vitae maecenas nulla
+                  nulla netus sagittis. Pellentesque non nec varius nisi velit
+                  nulla suspendisse luctus.
+                </p>
+                <div class="flex flex-start flex-auto gap-3">
+                  <img src="images/html.png" alt="" />
+                  <img src="images/css.png" alt="" />
+                  <img src="images/react.png" alt="" />
+                  <img src="images/js.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="bg-slate-200 p-3 rounded-r-xl space-y-3">
+              <img src="images/mdi_web.svg" alt="">
+              <img src="images/mdi_github.svg" alt="">
             </div>
           </div>
         </div>
-        <!-- third -->
-          <div class=" bg-sky-200 rounded-[20px] ">
-            <div class="absolute bg-green-600 w-8 h-8 rounded-br-[20px] rounded-tl-[20px]"></div>
-            <div class="px-7 py-5">
-            <h3 class="text-xl text-darkblue">Titulo do Certificado</h3>
-            <p class="text-gray my-3 mr-6">Lorem ipsum dolor sit amet consectetur. Vulputate leo pellentesque vel blandit non consequat. Vestibulum ut scelerisque blandit facilisis ultrices.Vestibulum ut scelerisque blandit facilisis ultrices.</p>
-            <div class="flex justify-between text-darkblue text-xs">
-            <p>
-              Tempo de estudo: 20 horas
-            </p>
-             <div class="inline-flex gap-2 items-center">
-              <p>Ver certificado</p>
-              <img src="images/arrow-right.svg" alt="">
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
       </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
